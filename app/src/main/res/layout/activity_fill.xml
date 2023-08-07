@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FillActivity"
+    android:background="@color/design_default_color_primary">
+
+    <ImageView
+        android:id="@+id/harita"
+        android:layout_width="370dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_image"
+        android:clipToOutline="true"
+        android:src="@drawable/harita" />
+
+    <ImageView
+        android:id="@+id/w1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="286dp"
+        android:clipToOutline="true"
+        android:visibility="gone"
+        android:src="@drawable/wrong" />
+
+    <ImageView
+        android:id="@+id/c1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="286dp"
+        android:clipToOutline="true"
+        android:visibility="gone"
+
+        android:src="@drawable/correct" />
+    <ImageView
+        android:id="@+id/w2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="230dp"
+        android:clipToOutline="true"
+        android:visibility="gone"
+        android:src="@drawable/wrong" />
+
+    <ImageView
+        android:id="@+id/c2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="230dp"
+        android:clipToOutline="true"
+        android:visibility="gone"
+
+        android:src="@drawable/correct" />
+    <ImageView
+        android:id="@+id/w3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="215dp"
+        android:clipToOutline="true"
+        android:visibility="gone"
+        android:src="@drawable/wrong" />
+
+    <ImageView
+        android:id="@+id/c3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="215dp"
+        android:clipToOutline="true"
+        android:visibility="gone"
+        android:src="@drawable/correct" />
+    <ImageView
+        android:id="@+id/w4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="247dp"
+        android:clipToOutline="true"
+        android:visibility="gone"
+        android:src="@drawable/wrong" />
+
+    <ImageView
+        android:id="@+id/c4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="247dp"
+        android:clipToOutline="true"
+        android:visibility="gone"
+        android:src="@drawable/correct" />
+
+
+
+        <ImageView
+            android:src="@drawable/b1"
+            android:id="@+id/button1"
+            android:layout_width="75dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="105dp"
+            />
+
+        <ImageView
+            android:src="@drawable/b2"
+            android:id="@+id/button2"
+            android:layout_width="75dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="197dp"
+            />
+
+        <ImageView
+            android:src="@drawable/b3"
+            android:id="@+id/button3"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="393dp"
+            android:layout_marginLeft="290dp"
+            />
+
+        <ImageView
+            android:src="@drawable/v4"
+            android:id="@+id/button4"
+            android:layout_width="75dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="20dp"
+        />
+
+
+    <ProgressBar
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/circularProgressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/rounded_image3"
+        android:max="4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:textColor="@color/white"
+        android:text="0 / 4"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"/>
+
+
+
+</RelativeLayout>
